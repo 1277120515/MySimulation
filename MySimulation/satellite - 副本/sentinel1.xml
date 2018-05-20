@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<satellite name="Sentinel-1" cn="Sentinel-1" extraInfo="">
+	<commonInfo>
+		<launch>2014-04-03</launch>
+		<retire/>
+		<designLife>7.0</designLife>
+		<country>欧洲</country>
+	</commonInfo>
+	<controlInfo>
+		<orbitColor>WHITE</orbitColor>
+		<satModel/>
+	</controlInfo>
+	<orbit>
+		<orbitInfo>
+			<orbitType>0</orbitType>
+			<orbitAltitude>693.0</orbitAltitude>
+			<orbitInclination>98.18</orbitInclination>
+			<orbitPeriod>96.0</orbitPeriod>
+			<repeatCycle>12</repeatCycle>
+			<lst/>
+		</orbitInfo>
+		<orbitElement>
+			<epoch>0</epoch>
+			<orbitA>0.0</orbitA>
+			<orbitE>0.0</orbitE>
+			<orbitI>0.0</orbitI>
+			<orbitQ>0.0</orbitQ>
+			<orbitW>0.0</orbitW>
+			<orbitF>0.0</orbitF>
+		</orbitElement>
+		<tle>
+			<id>39634</id>
+			<name>Sentinel-1</name>
+			<line1>0</line1>
+			<line2>0</line2>
+		</tle>
+	</orbit>
+	<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+	<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+	<sensorList sensorGroup="11">
+		<sensor name="SAR" cn="SAR" type="1">
+			<bandType>C</bandType>
+			<centerFrequence>6000.0</centerFrequence>
+			<scanColor>WHITE</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="SAR" cn="SAR">
+					<resolution>25.0</resolution>
+					<swath>80.0</swath>
+					<polarization/>
+					<bandList>
+                      <band name="EH1" cn="EH1">
+                      <incidenceMin>42.015</incidenceMin>
+                      <incidenceMax>44.381</incidenceMax>
+                      </band>
+                    </bandList>
+				</mode>
+			</modeList>
+		</sensor>
+	</sensorList>
+</satellite>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<satellite name="FY-3B" cn="FY-3B" extraInfo="">
+	<commonInfo>
+		<launch>2010-11-05</launch>
+		<retire/>
+		<designLife>2.0</designLife>
+		<country>中国</country>
+	</commonInfo>
+	<controlInfo>
+		<orbitColor>GREEN</orbitColor>
+		<satModel/>
+	</controlInfo>
+	<orbit>
+		<orbitInfo>
+			<orbitType>0</orbitType>
+			<orbitAltitude>836.0</orbitAltitude>
+			<orbitInclination>101.496</orbitInclination>
+			<orbitPeriod>98.75</orbitPeriod>
+			<repeatCycle>5.5</repeatCycle>
+			<lst/>
+		</orbitInfo>
+		<orbitElement>
+			<epoch>0</epoch>
+			<orbitA>0.0</orbitA>
+			<orbitE>0.0</orbitE>
+			<orbitI>0.0</orbitI>
+			<orbitQ>0.0</orbitQ>
+			<orbitW>0.0</orbitW>
+			<orbitF>0.0</orbitF>
+		</orbitElement>
+		<tle>
+			<id>37214</id>
+			<name>FY-3B</name>
+			<line1>0</line1>
+			<line2>0</line2>
+		</tle>
+	</orbit>
+	<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+	<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+	<sensorList sensorGroup="11">
+	       <sensor name="VIRR" cn="VIRR" type="0">
+			<fov>110.8</fov>
+			<swath>2400.0</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="VIRR" cn="VIRR">
+					<resolution>1100.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>0.43</bandMin>
+							<bandMax>12.5</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="IRAS" cn="IRAS" type="0">
+			<fov>99.0</fov>
+			<swath>2000.0</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="VIRR" cn="VIRR">
+					<resolution>17000.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>0.69</bandMin>
+							<bandMax>15.0</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="MWTS" cn="MWTS" type="1">
+			<bandType>U</bandType>
+			<centerFrequence>53500.0</centerFrequence>
+			<scanColor>WHITE</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="MWTS" cn="MWTS">
+					<resolution>50000.0</resolution>
+					<swath>1900.0</swath>
+					<polarization/>
+                                        <bandList>
+                                              <band name="EH1" cn="EH1">
+                                              <incidenceMin>42.015</incidenceMin>
+                                              <incidenceMax>44.381</incidenceMax>
+                                             </band>
+                                        </bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="MWHS" cn="MWHS" type="1">
+			<bandType>EHF</bandType>
+			<centerFrequence>166100.0</centerFrequence>
+			<scanColor>WHITE</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="MWHS" cn="MWHS">
+					<resolution>15000.0</resolution>
+					<swath>2250.0</swath>
+					<polarization/>
+                                          <bandList>
+                                              <band name="EH1" cn="EH1">
+                                              <incidenceMin>42.015</incidenceMin>
+                                              <incidenceMax>44.381</incidenceMax>
+                                             </band>
+                                        </bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="MWRI" cn="MWRI" type="1">
+			<bandType>U</bandType>
+			<centerFrequence>50000.0</centerFrequence>
+			<scanColor>WHITE</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="MWRI" cn="MWRI">
+					<resolution>15000.0</resolution>
+					<swath>2400.0</swath>
+					<polarization/>
+                                        <bandList>
+                                              <band name="EH1" cn="EH1">
+                                              <incidenceMin>42.015</incidenceMin>
+                                              <incidenceMax>44.381</incidenceMax>
+                                             </band>
+                                        </bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="MERSI" cn="MERSI" type="0">
+			<fov>110.8</fov>
+			<swath>2400.0</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="MERSI" cn="MERSI">
+					<resolution>250.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>0.4</bandMin>
+							<bandMax>12.5</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="TOU" cn="TOU" type="0">
+			<fov>108.0</fov>
+			<swath>2400.0</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="TOU" cn="TOU">
+					<resolution>50000.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>0.3</bandMin>
+							<bandMax>0.36</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="SBUS" cn="SBUS" type="0">
+			<fov>14.6</fov>
+			<swath>185.0</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="SBUS" cn="SBUS">
+					<resolution>20000.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>0.16</bandMin>
+							<bandMax>0.4</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+	</sensorList>
+</satellite>

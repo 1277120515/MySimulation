@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<satellite name="TERRA" cn="TERRA" extraInfo="" >
+	<commonInfo>
+		<launch>1999-12-18</launch>
+		<retire/>
+		<designLife>5.0</designLife>
+		<country>美国</country>
+	</commonInfo>
+	<controlInfo>
+		<orbitColor>GREEN</orbitColor>
+		<satModel/>
+	</controlInfo>
+	<orbit>
+		<orbitInfo>
+			<orbitType>0</orbitType>
+			<orbitAltitude>705.0</orbitAltitude>
+			<orbitInclination>0.0</orbitInclination>
+			<orbitPeriod>98.88</orbitPeriod>
+			<repeatCycle>16</repeatCycle>
+			<lst/>
+		</orbitInfo>
+		<orbitElement>
+			<epoch>0</epoch>
+			<orbitA>0.0</orbitA>
+			<orbitE>0.0</orbitE>
+			<orbitI>0.0</orbitI>
+			<orbitQ>0.0</orbitQ>
+			<orbitW>0.0</orbitW>
+			<orbitF>0.0</orbitF>
+		</orbitElement>
+		<tle>
+			<id>25994</id>
+			<name>TERRA</name>
+			<line1>0</line1>
+			<line2>0</line2>
+		</tle>
+	</orbit>
+	<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+	<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+	<sensorList sensorGroup="11">
+		<sensor name="MISR" cn="MISR" type="0">
+			<fov>28.6</fov>
+			<swath>360</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="MISR" cn="MISR">
+					<resolution>275.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>0.42</bandMin>
+							<bandMax>0.88</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="MODIS" cn="MODIS" type="0">
+			<fov>117.6</fov>
+			<swath>2330</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="MODIS" cn="MODIS">
+					<resolution>250.0</resolution>					
+					<bandList>
+						<band id="1">
+							<bandMin>0.4</bandMin>
+							<bandMax>14.4</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="ASTER" cn="ASTER" type="0">
+			<fov>5.0</fov>
+			<swath>60</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="VNIR" cn="VNIR">
+					<resolution>60.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>0.52</bandMin>
+							<bandMax>0.86</bandMax>
+						</band>
+					</bandList>
+				</mode>
+				<mode name="SWIR" cn="SWIR">
+					<resolution>60.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>1.6</bandMin>
+							<bandMax>2.43</bandMax>
+						</band>
+					</bandList>
+				</mode>
+				<mode name="TIR" cn="TIR">
+					<resolution>60.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>8.12</bandMin>
+							<bandMax>11.65</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="MOPIT" cn="MOPIT" type="0">
+			<fov>124.0</fov>
+			<swath>640</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="MOPIT" cn="MOPIT">
+					<resolution>22000.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>0.43</bandMin>
+							<bandMax>12.5</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="CERES" cn="CERES" type="0">
+			<fov>124.0</fov>
+			<swath>6600.0</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="CERES" cn="CERES">
+					<resolution>20000.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>0.3</bandMin>
+							<bandMax>200.0</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+	</sensorList>
+</satellite>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<satellite name="HY-2" cn="HY-2" extraInfo="" >
+	<commonInfo>
+		<launch>2011-08-16</launch>
+		<retire/>
+		<designLife>3.0</designLife>
+		<country>中国</country>
+	</commonInfo>
+	<controlInfo>
+		<orbitColor>GREEN</orbitColor>
+		<satModel/>
+	</controlInfo>
+	<orbit>
+		<orbitInfo>
+			<orbitType>0</orbitType>
+			<orbitAltitude>971.0</orbitAltitude>
+			<orbitInclination>104.46</orbitInclination>
+			<orbitPeriod>99.34</orbitPeriod>
+			<repeatCycle>14</repeatCycle>
+			<lst>6:00</lst>
+		</orbitInfo>
+		<orbitElement>
+			<epoch>0</epoch>
+			<orbitA>0.0</orbitA>
+			<orbitE>0.0</orbitE>
+			<orbitI>0.0</orbitI>
+			<orbitQ>0.0</orbitQ>
+			<orbitW>0.0</orbitW>
+			<orbitF>0.0</orbitF>
+		</orbitElement>
+		<tle>
+			<id>37781</id>
+			<name>HY-2</name>
+			<line1>0</line1>
+			<line2>0</line2>
+		</tle>
+	</orbit>
+	<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+	<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+	<sensorList sensorGroup="11">
+		<sensor name="IR1" cn="IR1" type="0">
+			<fov>71.6</fov>
+			<swath>1400</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="IR1" cn="IR1">
+					<resolution>4000.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>10.3</bandMin>
+							<bandMax>11.3</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="IR2" cn="IR2" type="0">
+			<fov>71.6</fov>
+			<swath>1400</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="IR2" cn="IR2">
+					<resolution>4000.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>11.5</bandMin>
+							<bandMax>12.5</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="IR3" cn="IR3" type="0">
+			<fov>71.6</fov>
+			<swath>1400</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="IR3" cn="IR3">
+					<resolution>4000.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>6.5</bandMin>
+							<bandMax>7.0</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="IR4" cn="IR4" type="0">
+			<fov>71.6</fov>
+			<swath>1400</swath>
+			<scanColor>GREEN</scanColor>
+			<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="IR4" cn="IR4">
+					<resolution>4000.0</resolution>
+					<bandList>
+						<band id="1">
+							<bandMin>3.5</bandMin>
+							<bandMax>4.0</bandMax>
+						</band>
+					</bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="MST" cn="MST" type="1">
+			<bandType>Ku</bandType>
+			<centerFrequence>13250.0</centerFrequence>
+			<scanColor>WHITE</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="MST" cn="MST">
+					<resolution>25000.0</resolution>
+					<swath>1400.0</swath>
+					<polarization/>
+					<bandList>
+                      <band name="EH1" cn="EH1">
+                      <incidenceMin>42.015</incidenceMin>
+                      <incidenceMax>44.381</incidenceMax>
+                      </band>
+                    </bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="SSM" cn="SSM" type="1">
+			<bandType>Ka</bandType>
+			<centerFrequence>37000.0</centerFrequence>
+			<scanColor>WHITE</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="SSM" cn="SSM">
+					<resolution>22000.0</resolution>
+					<swath>1600.0</swath>
+					<polarization/>
+					<bandList>
+                      <band name="EH1" cn="EH1">
+                      <incidenceMin>42.015</incidenceMin>
+                      <incidenceMax>44.381</incidenceMax>
+                      </band>
+                    </bandList>
+				</mode>
+			</modeList>
+		</sensor>
+		<sensor name="CSSM" cn="CSSM" type="1">
+			<bandType>Ka</bandType>
+			<centerFrequence>37000.0</centerFrequence>
+			<scanColor>WHITE</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="CSSM" cn="CSSM">
+					<resolution>10000.0</resolution>					
+					<swath>1600.0</swath>
+					<polarization/>
+					<bandList>
+                      <band name="EH1" cn="EH1">
+                      <incidenceMin>42.015</incidenceMin>
+                      <incidenceMax>44.381</incidenceMax>
+                      </band>
+                    </bandList>
+				</mode>
+			</modeList>
+		</sensor>
+	</sensorList>
+</satellite>

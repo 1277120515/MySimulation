@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<satellite name="ICESAT" cn="ICESAT" extraInfo="" >
+	<commonInfo>
+		<launch>2003-04-28</launch>
+		<retire/>
+		<designLife>5.0</designLife>
+		<country>美国</country>
+	</commonInfo>
+	<controlInfo>
+		<orbitColor>WHITE</orbitColor>
+		<satModel/>
+	</controlInfo>
+	<orbit>
+		<orbitInfo>
+			<orbitType>0</orbitType>
+			<orbitAltitude>590.0</orbitAltitude>
+			<orbitInclination>94.0</orbitInclination>
+			<orbitPeriod>0.0</orbitPeriod>
+			<repeatCycle>183.0</repeatCycle>
+			<lst/>
+		</orbitInfo>
+		<orbitElement>
+			<epoch>0</epoch>
+			<orbitA>0.0</orbitA>
+			<orbitE>0.0</orbitE>
+			<orbitI>0.0</orbitI>
+			<orbitQ>0.0</orbitQ>
+			<orbitW>0.0</orbitW>
+			<orbitF>0.0</orbitF>
+		</orbitElement>
+		<tle>
+			<id>27642</id>
+			<name>ICESAT</name>
+			<line1>0</line1>
+			<line2>0</line2>
+		</tle>
+	</orbit>
+	<sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+	<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+	<sensorList sensorGroup="11">
+		<sensor name="GLAS" cn="GLAS" type="1">
+			<bandType>S</bandType>
+			<centerFrequence>10.7</centerFrequence>
+			<scanColor>WHITE</scanColor>
+			<sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+			<orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+			<modeList modeGroup="0">
+				<mode name="GLAS" cn="GLAS">
+					<resolution>0.5</resolution>
+					<swath>520.0</swath>
+					<polarization/>
+					<bandList>
+                      <band name="EH1" cn="EH1">
+                      <incidenceMin>42.015</incidenceMin>
+                      <incidenceMax>44.381</incidenceMax>
+                      </band>
+                    </bandList>
+				</mode>
+			</modeList>
+		</sensor>
+	</sensorList>
+</satellite>

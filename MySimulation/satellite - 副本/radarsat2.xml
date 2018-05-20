@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<satellite name="RADARSAT-2" cn="RADARSAT-2" extraInfo="">
+    <commonInfo>
+        <launch>2007-12-14</launch>
+        <retire>2015-4</retire>
+        <designLife>7.0</designLife>
+        <country>加拿大</country>
+    </commonInfo>
+    <controlInfo>
+        <orbitColor>WHITE</orbitColor>
+        <satModel></satModel>
+    </controlInfo>
+    <orbit>
+        <orbitInfo>
+            <orbitType>0</orbitType>
+            <orbitAltitude>798.0</orbitAltitude>
+            <orbitInclination>98.6</orbitInclination>
+            <orbitPeriod>100.7</orbitPeriod>
+            <repeatCycle>24.0</repeatCycle>
+            <lst>18:00</lst>
+        </orbitInfo>
+        <orbitElement>
+            <epoch>0</epoch>
+            <orbitA>0.0</orbitA>
+            <orbitE>0.0</orbitE>
+            <orbitI>0.0</orbitI>
+            <orbitQ>0.0</orbitQ>
+            <orbitW>0.0</orbitW>
+            <orbitF>0.0</orbitF>
+        </orbitElement>
+        <tle>
+            <id>32382</id>
+            <name>RADARSAT-2</name>
+            <line1>0</line1>
+            <line2>0</line2>
+        </tle>
+    </orbit>
+    <sideAbility sideEnable="0" sideMin="0.0" sideMax="0.0"/>
+    <orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+    <sensorList sensorGroup="1">
+        <sensor name="SAR" cn="SAR" type="1">
+            <bandType>C</bandType>
+            <centerFrequence>5405.0</centerFrequence>
+            <scanColor>WHITE</scanColor>
+            <sideAbility sideEnable="3" sideMin="0.0" sideMax="0.0"/>
+            <orbitAbility orbitEnable="0" orbitMin="0.0" orbitMax="0.0"/>
+            <modeList modeGroup="0">
+                <mode name="Extended High" cn="Extended High">
+                    <resolution>20.0</resolution>
+                    <swath>75.0</swath>
+                    <polarization>11</polarization>
+                    <bandList>
+                        <band name="EH1" cn="EH1">
+                            <incidenceMin>42.015</incidenceMin>
+                            <incidenceMax>44.381</incidenceMax>
+                        </band>
+                        <band name="EH2" cn="EH2">
+                            <incidenceMin>43.164</incidenceMin>
+                            <incidenceMax>45.406</incidenceMax>
+                        </band>
+                        <band name="EH3" cn="EH3">
+                            <incidenceMin>44.405</incidenceMin>
+                            <incidenceMax>46.513</incidenceMax>
+                        </band>
+                        <band name="EH4" cn="EH4">
+                            <incidenceMin>46.495</incidenceMin>
+                            <incidenceMax>48.153</incidenceMax>
+                        </band>
+                        <band name="EH5" cn="EH5">
+                            <incidenceMin>47.305</incidenceMin>
+                            <incidenceMax>48.885</incidenceMax>
+                        </band>
+                        <band name="EH6" cn="EH6">
+                            <incidenceMin>48.277</incidenceMin>
+                            <incidenceMax>49.765</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="Extended Low" cn="Extended Low">
+                    <resolution>40.0</resolution>
+                    <swath>170.0</swath>
+                    <polarization>11</polarization>
+                    <bandList>
+                        <band name="EL1" cn="EL1">
+                            <incidenceMin>9.7243</incidenceMin>
+                            <incidenceMax>19.579</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="Fine" cn="Fine">
+                    <resolution>10.0</resolution>
+                    <swath>50.0</swath>
+                    <polarization>111221221323</polarization>
+                    <bandList>
+                        <band name="F23" cn="F23">
+                            <incidenceMin>26.639</incidenceMin>
+                            <incidenceMax>29.136</incidenceMax>
+                        </band>
+                        <band name="F23F" cn="F23F">
+                            <incidenceMin>27.317</incidenceMin>
+                            <incidenceMax>29.775</incidenceMax>
+                        </band>
+                        <band name="F22N" cn="F22N">
+                            <incidenceMin>27.99</incidenceMin>
+                            <incidenceMax>30.41</incidenceMax>
+                        </band>
+                        <band name="F22" cn="F22">
+                            <incidenceMin>28.669</incidenceMin>
+                            <incidenceMax>31.048</incidenceMax>
+                        </band>
+                        <band name="F22F" cn="F22F">
+                            <incidenceMin>29.321</incidenceMin>
+                            <incidenceMax>31.661</incidenceMax>
+                        </band>
+                        <band name="F21N" cn="F21N">
+                            <incidenceMin>29.967</incidenceMin>
+                            <incidenceMax>32.268</incidenceMax>
+                        </band>
+                        <band name="F21" cn="F21">
+                            <incidenceMin>30.619</incidenceMin>
+                            <incidenceMax>32.88</incidenceMax>
+                        </band>
+                        <band name="F21F" cn="F21F">
+                            <incidenceMin>31.233</incidenceMin>
+                            <incidenceMax>33.456</incidenceMax>
+                        </band>
+                        <band name="F1N" cn="F1N">
+                            <incidenceMin>31.849</incidenceMin>
+                            <incidenceMax>34.033</incidenceMax>
+                        </band>
+                        <band name="F1" cn="F1">
+                            <incidenceMin>32.463</incidenceMin>
+                            <incidenceMax>34.609</incidenceMax>
+                        </band>
+                        <band name="F1F" cn="F1F">
+                            <incidenceMin>33.128</incidenceMin>
+                            <incidenceMax>35.232</incidenceMax>
+                        </band>
+                        <band name="F2N" cn="F2N">
+                            <incidenceMin>33.785</incidenceMin>
+                            <incidenceMax>35.846</incidenceMax>
+                        </band>
+                        <band name="F2" cn="F2">
+                            <incidenceMin>34.45</incidenceMin>
+                            <incidenceMax>36.469</incidenceMax>
+                        </band>
+                        <band name="F2F" cn="F2F">
+                            <incidenceMin>35.038</incidenceMin>
+                            <incidenceMax>37.018</incidenceMax>
+                        </band>
+                        <band name="F3N" cn="F3N">
+                            <incidenceMin>35.617</incidenceMin>
+                            <incidenceMax>37.559</incidenceMax>
+                        </band>
+                        <band name="F3" cn="F3">
+                            <incidenceMin>36.205</incidenceMin>
+                            <incidenceMax>38.109</incidenceMax>
+                        </band>
+                        <band name="F3F" cn="F3F">
+                            <incidenceMin>36.736</incidenceMin>
+                            <incidenceMax>38.604</incidenceMax>
+                        </band>
+                        <band name="F4N" cn="F4N">
+                            <incidenceMin>37.263</incidenceMin>
+                            <incidenceMax>39.096</incidenceMax>
+                        </band>
+                        <band name="F4" cn="F4">
+                            <incidenceMin>37.794</incidenceMin>
+                            <incidenceMax>39.592</incidenceMax>
+                        </band>
+                        <band name="F4F" cn="F4F">
+                            <incidenceMin>38.287</incidenceMin>
+                            <incidenceMax>40.051</incidenceMax>
+                        </band>
+                        <band name="F5N" cn="F5N">
+                            <incidenceMin>38.777</incidenceMin>
+                            <incidenceMax>40.508</incidenceMax>
+                        </band>
+                        <band name="F5" cn="F5">
+                            <incidenceMin>39.27</incidenceMin>
+                            <incidenceMax>40.968</incidenceMax>
+                        </band>
+                        <band name="F5F" cn="F5F">
+                            <incidenceMin>39.742</incidenceMin>
+                            <incidenceMax>41.408</incidenceMax>
+                        </band>
+                        <band name="F6N" cn="F6N">
+                            <incidenceMin>40.209</incidenceMin>
+                            <incidenceMax>41.843</incidenceMax>
+                        </band>
+                        <band name="F6" cn="F6">
+                            <incidenceMin>40.681</incidenceMin>
+                            <incidenceMax>42.283</incidenceMax>
+                        </band>
+                        <band name="F6F" cn="F6F">
+                            <incidenceMin>41.154</incidenceMin>
+                            <incidenceMax>42.724</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="Fine Quad-Pol" cn="Fine Quad-Pol">
+                    <resolution>11.0</resolution>
+                    <swath>25.0</swath>
+                    <polarization>33</polarization>
+                    <bandList>
+                        <band name="FQ1" cn="FQ1">
+                            <incidenceMin>16.452</incidenceMin>
+                            <incidenceMax>17.835</incidenceMax>
+                        </band>
+                        <band name="FQ2" cn="FQ2">
+                            <incidenceMin>17.838</incidenceMin>
+                            <incidenceMax>19.319</incidenceMax>
+                        </band>
+                        <band name="FQ3" cn="FQ3">
+                            <incidenceMin>18.654</incidenceMin>
+                            <incidenceMax>20.123</incidenceMax>
+                        </band>
+                        <band name="FQ4" cn="FQ4">
+                            <incidenceMin>19.728</incidenceMin>
+                            <incidenceMax>21.172</incidenceMax>
+                        </band>
+                        <band name="FQ5" cn="FQ5">
+                            <incidenceMin>20.784</incidenceMin>
+                            <incidenceMax>22.204</incidenceMax>
+                        </band>
+                        <band name="FQ6" cn="FQ6">
+                            <incidenceMin>21.823</incidenceMin>
+                            <incidenceMax>23.218</incidenceMax>
+                        </band>
+                        <band name="FQ7" cn="FQ7">
+                            <incidenceMin>22.842</incidenceMin>
+                            <incidenceMax>24.212</incidenceMax>
+                        </band>
+                        <band name="FQ8" cn="FQ8">
+                            <incidenceMin>23.843</incidenceMin>
+                            <incidenceMax>25.186</incidenceMax>
+                        </band>
+                        <band name="FQ9" cn="FQ9">
+                            <incidenceMin>24.826</incidenceMin>
+                            <incidenceMax>26.143</incidenceMax>
+                        </band>
+                        <band name="FQ10" cn="FQ10">
+                            <incidenceMin>25.788</incidenceMin>
+                            <incidenceMax>27.079</incidenceMax>
+                        </band>
+                        <band name="FQ11" cn="FQ11">
+                            <incidenceMin>26.732</incidenceMin>
+                            <incidenceMax>27.996</incidenceMax>
+                        </band>
+                        <band name="FQ12" cn="FQ12">
+                            <incidenceMin>27.655</incidenceMin>
+                            <incidenceMax>28.893</incidenceMax>
+                        </band>
+                        <band name="FQ13" cn="FQ13">
+                            <incidenceMin>28.561</incidenceMin>
+                            <incidenceMax>29.772</incidenceMax>
+                        </band>
+                        <band name="FQ14" cn="FQ14">
+                            <incidenceMin>29.445</incidenceMin>
+                            <incidenceMax>30.629</incidenceMax>
+                        </band>
+                        <band name="FQ15" cn="FQ15">
+                            <incidenceMin>30.312</incidenceMin>
+                            <incidenceMax>31.47</incidenceMax>
+                        </band>
+                        <band name="FQ16" cn="FQ16">
+                            <incidenceMin>31.158</incidenceMin>
+                            <incidenceMax>32.29</incidenceMax>
+                        </band>
+                        <band name="FQ17" cn="FQ17">
+                            <incidenceMin>31.986</incidenceMin>
+                            <incidenceMax>33.091</incidenceMax>
+                        </band>
+                        <band name="FQ18" cn="FQ18">
+                            <incidenceMin>32.793</incidenceMin>
+                            <incidenceMax>33.873</incidenceMax>
+                        </band>
+                        <band name="FQ19" cn="FQ19">
+                            <incidenceMin>33.584</incidenceMin>
+                            <incidenceMax>34.638</incidenceMax>
+                        </band>
+                        <band name="FQ20" cn="FQ20">
+                            <incidenceMin>34.354</incidenceMin>
+                            <incidenceMax>35.383</incidenceMax>
+                        </band>
+                        <band name="FQ21" cn="FQ21">
+                            <incidenceMin>34.354</incidenceMin>
+                            <incidenceMax>36.111</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="Multi-Look Fine" cn="Multi-Look Fine">
+                    <resolution>11.0</resolution>
+                    <swath>50.0</swath>
+                    <polarization>11122122</polarization>
+                    <bandList>
+                        <band name="MF23" cn="MF23">
+                            <incidenceMin>26.639</incidenceMin>
+                            <incidenceMax>29.135</incidenceMax>
+                        </band>
+                        <band name="MF23F" cn="MF23F">
+                            <incidenceMin>27.317</incidenceMin>
+                            <incidenceMax>29.775</incidenceMax>
+                        </band>
+                        <band name="MF22N" cn="MF22N">
+                            <incidenceMin>27.99</incidenceMin>
+                            <incidenceMax>30.409</incidenceMax>
+                        </band>
+                        <band name="MF22" cn="MF22">
+                            <incidenceMin>28.669</incidenceMin>
+                            <incidenceMax>31.048</incidenceMax>
+                        </band>
+                        <band name="MF22F" cn="MF22F">
+                            <incidenceMin>29.321</incidenceMin>
+                            <incidenceMax>31.661</incidenceMax>
+                        </band>
+                        <band name="MF21N" cn="MF21N">
+                            <incidenceMin>29.967</incidenceMin>
+                            <incidenceMax>32.268</incidenceMax>
+                        </band>
+                        <band name="MF21" cn="MF21">
+                            <incidenceMin>30.619</incidenceMin>
+                            <incidenceMax>32.88</incidenceMax>
+                        </band>
+                        <band name="MF21F" cn="MF21F">
+                            <incidenceMin>31.233</incidenceMin>
+                            <incidenceMax>33.456</incidenceMax>
+                        </band>
+                        <band name="MF1N" cn="MF1N">
+                            <incidenceMin>31.849</incidenceMin>
+                            <incidenceMax>34.033</incidenceMax>
+                        </band>
+                        <band name="MF1" cn="MF1">
+                            <incidenceMin>32.463</incidenceMin>
+                            <incidenceMax>34.609</incidenceMax>
+                        </band>
+                        <band name="MF1F" cn="MF1F">
+                            <incidenceMin>33.128</incidenceMin>
+                            <incidenceMax>35.232</incidenceMax>
+                        </band>
+                        <band name="MF2N" cn="MF2N">
+                            <incidenceMin>33.785</incidenceMin>
+                            <incidenceMax>35.846</incidenceMax>
+                        </band>
+                        <band name="MF2" cn="MF2">
+                            <incidenceMin>34.45</incidenceMin>
+                            <incidenceMax>36.469</incidenceMax>
+                        </band>
+                        <band name="MF2F" cn="MF2F">
+                            <incidenceMin>35.038</incidenceMin>
+                            <incidenceMax>37.018</incidenceMax>
+                        </band>
+                        <band name="MF3N" cn="MF3N">
+                            <incidenceMin>35.617</incidenceMin>
+                            <incidenceMax>37.559</incidenceMax>
+                        </band>
+                        <band name="MF3" cn="MF3">
+                            <incidenceMin>36.204</incidenceMin>
+                            <incidenceMax>38.108</incidenceMax>
+                        </band>
+                        <band name="MF3F" cn="MF3F">
+                            <incidenceMin>36.736</incidenceMin>
+                            <incidenceMax>38.604</incidenceMax>
+                        </band>
+                        <band name="MF4N" cn="MF4N">
+                            <incidenceMin>37.263</incidenceMin>
+                            <incidenceMax>39.096</incidenceMax>
+                        </band>
+                        <band name="MF4" cn="MF4">
+                            <incidenceMin>37.793</incidenceMin>
+                            <incidenceMax>39.591</incidenceMax>
+                        </band>
+                        <band name="MF4F" cn="MF4F">
+                            <incidenceMin>38.287</incidenceMin>
+                            <incidenceMax>40.051</incidenceMax>
+                        </band>
+                        <band name="MF5N" cn="MF5N">
+                            <incidenceMin>38.777</incidenceMin>
+                            <incidenceMax>40.508</incidenceMax>
+                        </band>
+                        <band name="MF5" cn="MF5">
+                            <incidenceMin>39.27</incidenceMin>
+                            <incidenceMax>40.968</incidenceMax>
+                        </band>
+                        <band name="MF5F" cn="MF5F">
+                            <incidenceMin>39.742</incidenceMin>
+                            <incidenceMax>41.408</incidenceMax>
+                        </band>
+                        <band name="MF6N" cn="MF6N">
+                            <incidenceMin>40.209</incidenceMin>
+                            <incidenceMax>41.843</incidenceMax>
+                        </band>
+                        <band name="MF6" cn="MF6">
+                            <incidenceMin>40.681</incidenceMin>
+                            <incidenceMax>42.283</incidenceMax>
+                        </band>
+                        <band name="MF6F" cn="MF6F">
+                            <incidenceMin>41.154</incidenceMin>
+                            <incidenceMax>42.724</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="ScanSAR Narrow" cn="ScanSAR Narrow">
+                    <resolution>50.0</resolution>
+                    <swath>300.0</swath>
+                    <polarization>111221221323</polarization>
+                    <bandList>
+                        <band name="SCNA" cn="SCNA">
+                            <incidenceMin>18.444</incidenceMin>
+                            <incidenceMax>33.858</incidenceMax>
+                        </band>
+                        <band name="SCNB" cn="SCNB">
+                            <incidenceMin>27.461</incidenceMin>
+                            <incidenceMax>39.875</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="ScanSAR Wide" cn="ScanSAR Wide">
+                    <resolution>100.0</resolution>
+                    <swath>500.0</swath>
+                    <polarization>111221221323</polarization>
+                    <bandList>
+                        <band name="SCWA" cn="SCWA">
+                            <incidenceMin>18.444</incidenceMin>
+                            <incidenceMax>42.098</incidenceMax>
+                        </band>
+                        <band name="SCWB" cn="SCWB">
+                            <incidenceMin>18.444</incidenceMin>
+                            <incidenceMax>39.856</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="Spotlight" cn="Spotlight">
+                    <resolution>3.0</resolution>
+                    <swath>18.0</swath>
+                    <polarization>11122122</polarization>
+                    <bandList>
+                        <band name="SLA70" cn="SLA70">
+                            <incidenceMin>17.724</incidenceMin>
+                            <incidenceMax>18.917</incidenceMax>
+                        </band>
+                        <band name="SLA71" cn="SLA71">
+                            <incidenceMin>18.638</incidenceMin>
+                            <incidenceMax>19.816</incidenceMax>
+                        </band>
+                        <band name="SLA72" cn="SLA72">
+                            <incidenceMin>19.542</incidenceMin>
+                            <incidenceMax>20.703</incidenceMax>
+                        </band>
+                        <band name="SLA73" cn="SLA73">
+                            <incidenceMin>20.432</incidenceMin>
+                            <incidenceMax>21.577</incidenceMax>
+                        </band>
+                        <band name="SLA74" cn="SLA74">
+                            <incidenceMin>21.311</incidenceMin>
+                            <incidenceMax>22.439</incidenceMax>
+                        </band>
+                        <band name="SLA75" cn="SLA75">
+                            <incidenceMin>22.176</incidenceMin>
+                            <incidenceMax>23.287</incidenceMax>
+                        </band>
+                        <band name="SLA76" cn="SLA76">
+                            <incidenceMin>23.028</incidenceMin>
+                            <incidenceMax>24.123</incidenceMax>
+                        </band>
+                        <band name="SLA77" cn="SLA77">
+                            <incidenceMin>23.868</incidenceMin>
+                            <incidenceMax>24.945</incidenceMax>
+                        </band>
+                        <band name="SLA78" cn="SLA78">
+                            <incidenceMin>24.693</incidenceMin>
+                            <incidenceMax>25.753</incidenceMax>
+                        </band>
+                        <band name="SLA79" cn="SLA79">
+                            <incidenceMin>25.507</incidenceMin>
+                            <incidenceMax>26.548</incidenceMax>
+                        </band>
+                        <band name="SLA1" cn="SLA1">
+                            <incidenceMin>26.305</incidenceMin>
+                            <incidenceMax>27.329</incidenceMax>
+                        </band>
+                        <band name="SLA2" cn="SLA2">
+                            <incidenceMin>27.057</incidenceMin>
+                            <incidenceMax>28.063</incidenceMax>
+                        </band>
+                        <band name="SLA3" cn="SLA3">
+                            <incidenceMin>27.792</incidenceMin>
+                            <incidenceMax>28.781</incidenceMax>
+                        </band>
+                        <band name="SLA4" cn="SLA4">
+                            <incidenceMin>28.516</incidenceMin>
+                            <incidenceMax>29.488</incidenceMax>
+                        </band>
+                        <band name="SLA5" cn="SLA5">
+                            <incidenceMin>29.226</incidenceMin>
+                            <incidenceMax>30.181</incidenceMax>
+                        </band>
+                        <band name="SLA6" cn="SLA6">
+                            <incidenceMin>29.923</incidenceMin>
+                            <incidenceMax>30.862</incidenceMax>
+                        </band>
+                        <band name="SLA7" cn="SLA7">
+                            <incidenceMin>30.61</incidenceMin>
+                            <incidenceMax>31.531</incidenceMax>
+                        </band>
+                        <band name="SLA8" cn="SLA8">
+                            <incidenceMin>31.282</incidenceMin>
+                            <incidenceMax>32.187</incidenceMax>
+                        </band>
+                        <band name="SLA9" cn="SLA9">
+                            <incidenceMin>31.944</incidenceMin>
+                            <incidenceMax>32.832</incidenceMax>
+                        </band>
+                        <band name="SLA10" cn="SLA10">
+                            <incidenceMin>32.593</incidenceMin>
+                            <incidenceMax>33.465</incidenceMax>
+                        </band>
+                        <band name="SLA11" cn="SLA11">
+                            <incidenceMin>33.23</incidenceMin>
+                            <incidenceMax>34.086</incidenceMax>
+                        </band>
+                        <band name="SLA12" cn="SLA12">
+                            <incidenceMin>33.854</incidenceMin>
+                            <incidenceMax>34.693</incidenceMax>
+                        </band>
+                        <band name="SLA13" cn="SLA13">
+                            <incidenceMin>34.468</incidenceMin>
+                            <incidenceMax>35.291</incidenceMax>
+                        </band>
+                        <band name="SLA14" cn="SLA14">
+                            <incidenceMin>35.069</incidenceMin>
+                            <incidenceMax>35.876</incidenceMax>
+                        </band>
+                        <band name="SLA15" cn="SLA15">
+                            <incidenceMin>35.658</incidenceMin>
+                            <incidenceMax>36.449</incidenceMax>
+                        </band>
+                        <band name="SLA16" cn="SLA16">
+                            <incidenceMin>36.236</incidenceMin>
+                            <incidenceMax>37.012</incidenceMax>
+                        </band>
+                        <band name="SLA17" cn="SLA17">
+                            <incidenceMin>36.803</incidenceMin>
+                            <incidenceMax>37.563</incidenceMax>
+                        </band>
+                        <band name="SLA18" cn="SLA18">
+                            <incidenceMin>37.359</incidenceMin>
+                            <incidenceMax>38.105</incidenceMax>
+                        </band>
+                        <band name="SLA19" cn="SLA19">
+                            <incidenceMin>37.903</incidenceMin>
+                            <incidenceMax>38.634</incidenceMax>
+                        </band>
+                        <band name="SLA20" cn="SLA20">
+                            <incidenceMin>38.437</incidenceMin>
+                            <incidenceMax>39.153</incidenceMax>
+                        </band>
+                        <band name="SLA21" cn="SLA21">
+                            <incidenceMin>38.959</incidenceMin>
+                            <incidenceMax>39.661</incidenceMax>
+                        </band>
+                        <band name="SLA22" cn="SLA22">
+                            <incidenceMin>39.472</incidenceMin>
+                            <incidenceMax>40.16</incidenceMax>
+                        </band>
+                        <band name="SLA23" cn="SLA23">
+                            <incidenceMin>39.974</incidenceMin>
+                            <incidenceMax>40.648</incidenceMax>
+                        </band>
+                        <band name="SLA24" cn="SLA24">
+                            <incidenceMin>40.466</incidenceMin>
+                            <incidenceMax>41.126</incidenceMax>
+                        </band>
+                        <band name="SLA25" cn="SLA25">
+                            <incidenceMin>40.947</incidenceMin>
+                            <incidenceMax>41.594</incidenceMax>
+                        </band>
+                        <band name="SLA26" cn="SLA26">
+                            <incidenceMin>41.42</incidenceMin>
+                            <incidenceMax>42.053</incidenceMax>
+                        </band>
+                        <band name="SLA27" cn="SLA27">
+                            <incidenceMin>41.882</incidenceMin>
+                            <incidenceMax>42.503</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="Standard" cn="Standard">
+                    <resolution>25.0</resolution>
+                    <swath>100.0</swath>
+                    <polarization>111221221323</polarization>
+                    <bandList>
+                        <band name="S1" cn="S1">
+                            <incidenceMin>18.1778</incidenceMin>
+                            <incidenceMax>23.5505</incidenceMax>
+                        </band>
+                        <band name="S2" cn="S2">
+                            <incidenceMin>21.6407</incidenceMin>
+                            <incidenceMax>27.0291</incidenceMax>
+                        </band>
+                        <band name="S3" cn="S3">
+                            <incidenceMin>27.1989</incidenceMin>
+                            <incidenceMax>31.9851</incidenceMax>
+                        </band>
+                        <band name="S4" cn="S4">
+                            <incidenceMin>29.7914</incidenceMin>
+                            <incidenceMax>34.2736</incidenceMax>
+                        </band>
+                        <band name="S5" cn="S5">
+                            <incidenceMin>32.1488</incidenceMin>
+                            <incidenceMax>36.344</incidenceMax>
+                        </band>
+                        <band name="S6" cn="S6">
+                            <incidenceMin>36.2262</incidenceMin>
+                            <incidenceMax>39.9047</incidenceMax>
+                        </band>
+                        <band name="S7" cn="S7">
+                            <incidenceMin>38.8089</incidenceMin>
+                            <incidenceMax>42.151</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="Standard Quad-Pol" cn="Standard Quad-Pol">
+                    <resolution>25.0</resolution>
+                    <swath>25.0</swath>
+                    <polarization>33</polarization>
+                    <bandList>
+                        <band name="SQ1" cn="SQ1">
+                            <incidenceMin>16.452</incidenceMin>
+                            <incidenceMax>17.968</incidenceMax>
+                        </band>
+                        <band name="SQ2" cn="SQ2">
+                            <incidenceMin>17.838</incidenceMin>
+                            <incidenceMax>19.192</incidenceMax>
+                        </band>
+                        <band name="SQ3" cn="SQ3">
+                            <incidenceMin>18.655</incidenceMin>
+                            <incidenceMax>20.124</incidenceMax>
+                        </band>
+                        <band name="SQ4" cn="SQ4">
+                            <incidenceMin>19.728</incidenceMin>
+                            <incidenceMax>21.174</incidenceMax>
+                        </band>
+                        <band name="SQ5" cn="SQ5">
+                            <incidenceMin>20.784</incidenceMin>
+                            <incidenceMax>22.205</incidenceMax>
+                        </band>
+                        <band name="SQ6" cn="SQ6">
+                            <incidenceMin>21.823</incidenceMin>
+                            <incidenceMax>23.218</incidenceMax>
+                        </band>
+                        <band name="SQ7" cn="SQ7">
+                            <incidenceMin>22.842</incidenceMin>
+                            <incidenceMax>24.211</incidenceMax>
+                        </band>
+                        <band name="SQ8" cn="SQ8">
+                            <incidenceMin>23.844</incidenceMin>
+                            <incidenceMax>25.187</incidenceMax>
+                        </band>
+                        <band name="SQ9" cn="SQ9">
+                            <incidenceMin>24.826</incidenceMin>
+                            <incidenceMax>26.142</incidenceMax>
+                        </band>
+                        <band name="SQ10" cn="SQ10">
+                            <incidenceMin>25.788</incidenceMin>
+                            <incidenceMax>27.079</incidenceMax>
+                        </band>
+                        <band name="SQ11" cn="SQ11">
+                            <incidenceMin>26.732</incidenceMin>
+                            <incidenceMax>27.995</incidenceMax>
+                        </band>
+                        <band name="SQ12" cn="SQ12">
+                            <incidenceMin>27.656</incidenceMin>
+                            <incidenceMax>28.894</incidenceMax>
+                        </band>
+                        <band name="SQ13" cn="SQ13">
+                            <incidenceMin>28.561</incidenceMin>
+                            <incidenceMax>29.771</incidenceMax>
+                        </band>
+                        <band name="SQ14" cn="SQ14">
+                            <incidenceMin>29.446</incidenceMin>
+                            <incidenceMax>30.631</incidenceMax>
+                        </band>
+                        <band name="SQ15" cn="SQ15">
+                            <incidenceMin>30.312</incidenceMin>
+                            <incidenceMax>31.469</incidenceMax>
+                        </band>
+                        <band name="SQ16" cn="SQ16">
+                            <incidenceMin>31.158</incidenceMin>
+                            <incidenceMax>32.29</incidenceMax>
+                        </band>
+                        <band name="SQ17" cn="SQ17">
+                            <incidenceMin>31.986</incidenceMin>
+                            <incidenceMax>33.091</incidenceMax>
+                        </band>
+                        <band name="SQ18" cn="SQ18">
+                            <incidenceMin>32.793</incidenceMin>
+                            <incidenceMax>33.873</incidenceMax>
+                        </band>
+                        <band name="SQ19" cn="SQ19">
+                            <incidenceMin>33.584</incidenceMin>
+                            <incidenceMax>34.638</incidenceMax>
+                        </band>
+                        <band name="SQ20" cn="SQ20">
+                            <incidenceMin>34.354</incidenceMin>
+                            <incidenceMax>35.384</incidenceMax>
+                        </band>
+                        <band name="SQ21" cn="SQ21">
+                            <incidenceMin>34.354</incidenceMin>
+                            <incidenceMax>36.111</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="Ultra-Fine" cn="Ultra-Fine">
+                    <resolution>3.0</resolution>
+                    <swath>20.0</swath>
+                    <polarization>11122122</polarization>
+                    <bandList>
+                        <band name="U70" cn="U70">
+                            <incidenceMin>17.724</incidenceMin>
+                            <incidenceMax>18.917</incidenceMax>
+                        </band>
+                        <band name="U71" cn="U71">
+                            <incidenceMin>18.638</incidenceMin>
+                            <incidenceMax>19.816</incidenceMax>
+                        </band>
+                        <band name="U72" cn="U72">
+                            <incidenceMin>19.542</incidenceMin>
+                            <incidenceMax>20.703</incidenceMax>
+                        </band>
+                        <band name="U73" cn="U73">
+                            <incidenceMin>20.432</incidenceMin>
+                            <incidenceMax>21.577</incidenceMax>
+                        </band>
+                        <band name="U74" cn="U74">
+                            <incidenceMin>21.311</incidenceMin>
+                            <incidenceMax>22.439</incidenceMax>
+                        </band>
+                        <band name="U75" cn="U75">
+                            <incidenceMin>22.176</incidenceMin>
+                            <incidenceMax>23.287</incidenceMax>
+                        </band>
+                        <band name="U76" cn="U76">
+                            <incidenceMin>23.028</incidenceMin>
+                            <incidenceMax>24.123</incidenceMax>
+                        </band>
+                        <band name="U77" cn="U77">
+                            <incidenceMin>23.868</incidenceMin>
+                            <incidenceMax>24.945</incidenceMax>
+                        </band>
+                        <band name="U78" cn="U78">
+                            <incidenceMin>24.693</incidenceMin>
+                            <incidenceMax>25.753</incidenceMax>
+                        </band>
+                        <band name="U79" cn="U79">
+                            <incidenceMin>25.507</incidenceMin>
+                            <incidenceMax>26.548</incidenceMax>
+                        </band>
+                        <band name="U1" cn="U1">
+                            <incidenceMin>26.305</incidenceMin>
+                            <incidenceMax>27.329</incidenceMax>
+                        </band>
+                        <band name="U2" cn="U2">
+                            <incidenceMin>27.057</incidenceMin>
+                            <incidenceMax>28.063</incidenceMax>
+                        </band>
+                        <band name="U3" cn="U3">
+                            <incidenceMin>27.792</incidenceMin>
+                            <incidenceMax>28.781</incidenceMax>
+                        </band>
+                        <band name="U4" cn="U4">
+                            <incidenceMin>28.516</incidenceMin>
+                            <incidenceMax>29.488</incidenceMax>
+                        </band>
+                        <band name="U5" cn="U5">
+                            <incidenceMin>29.226</incidenceMin>
+                            <incidenceMax>30.181</incidenceMax>
+                        </band>
+                        <band name="U6" cn="U6">
+                            <incidenceMin>29.923</incidenceMin>
+                            <incidenceMax>30.862</incidenceMax>
+                        </band>
+                        <band name="U7" cn="U7">
+                            <incidenceMin>30.61</incidenceMin>
+                            <incidenceMax>31.531</incidenceMax>
+                        </band>
+                        <band name="U8" cn="U8">
+                            <incidenceMin>31.282</incidenceMin>
+                            <incidenceMax>32.187</incidenceMax>
+                        </band>
+                        <band name="U9" cn="U9">
+                            <incidenceMin>31.944</incidenceMin>
+                            <incidenceMax>32.832</incidenceMax>
+                        </band>
+                        <band name="U10" cn="U10">
+                            <incidenceMin>32.593</incidenceMin>
+                            <incidenceMax>33.465</incidenceMax>
+                        </band>
+                        <band name="U11" cn="U11">
+                            <incidenceMin>33.23</incidenceMin>
+                            <incidenceMax>34.086</incidenceMax>
+                        </band>
+                        <band name="U12" cn="U12">
+                            <incidenceMin>33.854</incidenceMin>
+                            <incidenceMax>34.693</incidenceMax>
+                        </band>
+                        <band name="U13" cn="U13">
+                            <incidenceMin>34.468</incidenceMin>
+                            <incidenceMax>35.291</incidenceMax>
+                        </band>
+                        <band name="U14" cn="U14">
+                            <incidenceMin>35.069</incidenceMin>
+                            <incidenceMax>35.876</incidenceMax>
+                        </band>
+                        <band name="U15" cn="U15">
+                            <incidenceMin>35.658</incidenceMin>
+                            <incidenceMax>36.449</incidenceMax>
+                        </band>
+                        <band name="U16" cn="U16">
+                            <incidenceMin>36.236</incidenceMin>
+                            <incidenceMax>37.012</incidenceMax>
+                        </band>
+                        <band name="U17" cn="U17">
+                            <incidenceMin>36.803</incidenceMin>
+                            <incidenceMax>37.563</incidenceMax>
+                        </band>
+                        <band name="U18" cn="U18">
+                            <incidenceMin>37.359</incidenceMin>
+                            <incidenceMax>38.105</incidenceMax>
+                        </band>
+                        <band name="U19" cn="U19">
+                            <incidenceMin>37.903</incidenceMin>
+                            <incidenceMax>38.634</incidenceMax>
+                        </band>
+                        <band name="U20" cn="U20">
+                            <incidenceMin>38.437</incidenceMin>
+                            <incidenceMax>39.153</incidenceMax>
+                        </band>
+                        <band name="U21" cn="U21">
+                            <incidenceMin>38.959</incidenceMin>
+                            <incidenceMax>39.661</incidenceMax>
+                        </band>
+                        <band name="U22" cn="U22">
+                            <incidenceMin>39.472</incidenceMin>
+                            <incidenceMax>40.16</incidenceMax>
+                        </band>
+                        <band name="U23" cn="U23">
+                            <incidenceMin>39.974</incidenceMin>
+                            <incidenceMax>40.648</incidenceMax>
+                        </band>
+                        <band name="U24" cn="U24">
+                            <incidenceMin>40.466</incidenceMin>
+                            <incidenceMax>41.126</incidenceMax>
+                        </band>
+                        <band name="U25" cn="U25">
+                            <incidenceMin>40.947</incidenceMin>
+                            <incidenceMax>41.594</incidenceMax>
+                        </band>
+                        <band name="U26" cn="U26">
+                            <incidenceMin>41.42</incidenceMin>
+                            <incidenceMax>42.053</incidenceMax>
+                        </band>
+                        <band name="U27" cn="U27">
+                            <incidenceMin>41.882</incidenceMin>
+                            <incidenceMax>42.503</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>
+                <mode name="Wide" cn="Wide">
+                    <resolution>25.0</resolution>
+                    <swath>150.0</swath>
+                    <polarization>111221221323</polarization>
+                    <bandList>
+                        <band name="W1" cn="W1">
+                            <incidenceMin>18.7831</incidenceMin>
+                            <incidenceMax>27.2705</incidenceMax>
+                        </band>
+                        <band name="W2" cn="W2">
+                            <incidenceMin>27.461</incidenceMin>
+                            <incidenceMax>33.8836</incidenceMax>
+                        </band>
+                        <band name="W3" cn="W3">
+                            <incidenceMin>34.184</incidenceMin>
+                            <incidenceMax>38.8175</incidenceMax>
+                        </band>
+                    </bandList>
+                </mode>                
+            </modeList>
+        </sensor>
+    </sensorList>
+</satellite>
