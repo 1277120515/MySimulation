@@ -25,6 +25,9 @@ import gov.nasa.worldwind.WorldWindow;
 import gov.nasa.worldwind.geom.Position;
 import gov.nasa.worldwind.layers.RenderableLayer;
 import gov.nasa.worldwind.render.*;
+import gov.nasa.worldwindx.applications.worldwindow.core.Constants;
+import gov.nasa.worldwindx.applications.worldwindow.features.swinglayermanager.ActiveLayersPanel;
+import gov.nasa.worldwindx.applications.worldwindow.core.Controller;
 import java.awt.Color;
 import java.util.*;
 import javax.swing.JLabel;
@@ -36,17 +39,24 @@ import javax.swing.JTextField;
  */
 public class MyDisplayDialog extends JDialog {
     
+    Controller controller;
     WorldWindow wwd;
     RenderableLayer displayLayer;
     
-    public MyDisplayDialog(WorldWindow wwd, Frame owner) {
+    public MyDisplayDialog(Controller c, Frame owner) {
         super(owner);
+        this.controller=c;
+        this.wwd = c.getWWd();
         
-        this.wwd = wwd;
-        displayLayer = (RenderableLayer) wwd.getModel().getLayers().getLayerByName("三维显示");
-        
-        InitDialog();
+        displayLayer=(RenderableLayer)wwd.getModel().getLayers().getLayerByName("三维显示");
 
+       // wwd.getModel().getLayers().add(displayLayer);
+        //ActiveLayersPanel activeLayersPanel=(ActiveLayersPanel)controller.getRegisteredObject(Constants.FEATURE_ACTIVE_LAYERS_PANEL);
+
+        InitDialog();
+        
+        
+        
         InitSatellitePos();
         InitScene();
 
